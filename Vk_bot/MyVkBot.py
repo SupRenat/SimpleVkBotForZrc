@@ -3,7 +3,7 @@ import time
 import vk
 
 #Аутентификация от имени группы
-vk = vk_api.VkApi(token='76731ab228f518d2b7efefb61626cb36725693ca762f147bac6aae74381d403ce1ab8bea0c2af6c1d2a53')
+vk = vk_api.VkApi(token='your_token')
 vk._auth_token()
 
 values = {'out':0,'count':100, 'time_offset':60}
